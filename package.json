@@ -1,0 +1,18 @@
+{
+  "name": "phpsite-websocket",
+  "version": "1.0.0",
+  "description": "WebSocket server for phpsite",
+  "main": "websocket-server1.js",
+  "scripts": {
+    "start": "node websocket-server1.js",
+    "dev": "nodemon websocket-server1.js"
+  },
+  "dependencies": {
+    "ws": "^8.13.0",
+    "nodemailer": "^6.9.3",
+    "mysql2": "^3.4.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
